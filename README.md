@@ -1,4 +1,5 @@
 ## Requirements
+
 * ReactJS
 * Any CSS framework you like
 
@@ -13,10 +14,10 @@ You may delete your fork after the interview, if you like.
 ### Part 1
 Let's create a single page report:
 
-* Doesn't need to be fancy - you can use default styling from any CSS framework you like.
-* Table view is fine.
+* Doesn't need to be fancy - you can use default styling from any CSS framework you like
+* Table view is fine
 * Make an "API call" to the `GET#/reports/clients` endpoint to retrieve data
-    * Just use the mock data provided in `data.json` file.
+    * Just use the mock data provided in `data.json` file
     * Bonus: Use `axios-mock-adapter` library to make API calls to: `https://api.example.com/reports/clients` and have it return the contents of `data.json`
 * In report show:
     * Client name
@@ -29,13 +30,14 @@ Let's create a single page report:
 ### Part 2
 Let's update the report so that you can click into a more detailed view.
 
-* Make client name "clickable" that will take you to a detailed view
+* Make client name "clickable" that will take you to a detailed view in a new page/route
 
 ### Part 3
 Create a new view that retrieves the detailed data from a specific client.
 
 * Make an "API call" to `GET#/reports/clients/{client ID}`
     * Just use a single random item from the mock data in `data.json`
+    * Bonus: Find the matching client record in the `data.json` file
     * Bonus: Use `axios-mock-adapter` library to make API calls to: `https://api.example.com/reports/clients/{id}` and have it return the matching client record from `data.json`
 * Show MTD (month to date) numbers for:
     * Customers
