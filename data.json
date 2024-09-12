@@ -1,0 +1,88 @@
+[
+	{
+		"client": {
+			"id": "50cbd56e-1cdd-4cda-918d-f08289ab7fb9",
+			"name": "Acme Widgets Inc",
+			"status": "active"
+		},
+
+		"customers": {
+			"mtd": 23,
+			"ytd": 910,
+			"total": 3221,
+			"history": [3, 5, 10, 6, 15, 33, 76, 94, 78, 13, 23, 50]
+		},
+
+		"sales": {
+			"mtd": 131441,
+			"ytd": 6582331,
+			"total": 39013913,
+			"history": [3901, 11234, 13905, 30314, 3901, 90134, 78131, 89913]
+		},
+
+		"returns": {
+			"mtd": 43134,
+			"ytd": 312344,
+			"total": 8991333,
+			"history": [3133, 5414, 77133, 1331, 731, 63123]
+		}
+	},
+
+	{
+		"client": {
+			"id": "8fcde6cf-ac3a-4d1c-a819-67a02c2e0843",
+			"name": "Faust Supplies",
+			"status": "active"
+		},
+
+		"customers": {
+			"mtd": 23,
+			"ytd": 910,
+			"total": 3221,
+			"history": [4, 20, 69, 15, 23, 6, 94, 78, 23]
+		},
+
+		"sales": {
+			"mtd": 131441,
+			"ytd": 6582331,
+			"total": 39013913,
+			"history": [13905, 30314, 3901, 90134, 78131, 89913]
+		},
+
+		"returns": {
+			"mtd": 43134,
+			"ytd": 312344,
+			"total": 8991333,
+			"history": [3133, 5414, 77133, 1331, 731, 63123]
+		}
+	},
+
+	{
+		"client": {
+			"id": "fdc781e5-9417-4e07-9715-3c0ce782bed0",
+			"name": "Teletron Interactive",
+			"status": "active"
+		},
+
+		"customers": {
+			"mtd": 1013,
+			"ytd": 67881,
+			"total": 97721,
+			"history": [135, 313, 769, 941, 781, 1383]
+		},
+
+		"sales": {
+			"mtd": 131441,
+			"ytd": 6582331,
+			"total": 39013913,
+			"history": [13905, 30314, 3901, 90134, 78131, 89913]
+		},
+
+		"returns": {
+			"mtd": 43134,
+			"ytd": 312344,
+			"total": 8991333,
+			"history": [3133, 5414, 77133, 1331, 731, 63123]
+		}
+	}
+]
