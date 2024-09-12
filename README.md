@@ -4,6 +4,12 @@
 
 ## Steps
 
+Before you start working, create a fork of this repo in your own Github account.
+
+You will be submitting pull requests from your fork. Your PRs will not actually be merged and when the interview is complete, the PRs will be closed.
+
+You may delete your fork after the interview, if you like.
+
 ### Part 1
 Let's create a single page report:
 
@@ -17,6 +23,7 @@ Let's create a single page report:
     * Total sales
     * Total returns
 * Alternate background color on rows, for better visibilty
+* Create a PR to merge your changes
 
 ### Part 2
 Let's update the report so that you can click into a more detailed view.
@@ -41,3 +48,4 @@ Create a new view that retrieves the detailed data from a specific client.
     * Customer history
     * Sales history
     * Returns history
+* Create a PR to merge your changes
