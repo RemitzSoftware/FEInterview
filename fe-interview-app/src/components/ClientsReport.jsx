@@ -3,6 +3,7 @@ import data from '../data/data.json';
 import './ClientsReport.css';
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
+import { Link } from 'react-router-dom';
 
 function ClientsReport() {
   const [clients, setClients] = useState([]);
@@ -35,7 +36,11 @@ function ClientsReport() {
             clients.map((row) => {
               return (
                 <tr key={row.client.id}>
-                  <td>{row.client.name}</td>
+                  <td>
+                    <Link
+                      to={'clients?' + row.client.id}
+                    >{row.client.name}</Link>
+                  </td>
                   <td>{row.customers.total}</td>
                   <td>{row.sales.total}</td>
                   <td>{row.returns.total}</td>
