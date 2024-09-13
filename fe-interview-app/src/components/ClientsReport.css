@@ -1,0 +1,20 @@
+#clients-report {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+}
+
+#clients-report thead{
+  color: white;
+  background-color: black;
+}
+#clients-report th{
+  padding: 5px;
+}
+
+#clients-report tr:nth-child(odd) td{
+  background-color: aquamarine;
+}
+#clients-report tr:nth-child(even) td{
+  background-color: white;
+}
