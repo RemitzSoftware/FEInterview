@@ -18,7 +18,7 @@ Let's create a single page report:
 * Table view is fine
 * Make an "API call" to the `GET#/reports/clients` endpoint to retrieve data
     * Just use the mock data provided in `data.json` file
-    * Bonus: Use `axios-mock-adapter` library to make API calls to: `https://api.example.com/reports/clients` and have it return the contents of `data.json`
+    * Bonus: Use [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter) library to mock API calls to: `https://api.example.com/reports/clients` and have it return the contents of `data.json`
 * In report show:
     * Client name
     * Total customers
@@ -38,7 +38,7 @@ Create a new view that retrieves the detailed data from a specific client.
 * Make an "API call" to `GET#/reports/clients/{client ID}`
     * Just use a single random item from the mock data in `data.json`
     * Bonus: Find the matching client record in the `data.json` file
-    * Bonus: Use `axios-mock-adapter` library to make API calls to: `https://api.example.com/reports/clients/{id}` and have it return the matching client record from `data.json`
+    * Bonus: Use [axios-mock-adapter](https://www.npmjs.com/package/axios-mock-adapter) library to mock API calls to: `https://api.example.com/reports/clients/{id}` and have it return the matching client record from `data.json`
 * Show MTD (month to date) numbers for:
     * Customers
     * Sales
@@ -47,7 +47,7 @@ Create a new view that retrieves the detailed data from a specific client.
     * Customers
     * Sales
     * Returns
-* Using Chart.js library (https://www.chartjs.org/docs/latest/samples/line/line.html), create line graphs for:
+* Using [Chart.js](https://www.chartjs.org/docs/latest/samples/line/line.html) library , create line graphs for:
     * Customer history
     * Sales history
     * Returns history
